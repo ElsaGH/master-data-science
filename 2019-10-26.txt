@@ -1,0 +1,70 @@
+find / -name "*.txt" -exec ls -l {} ;\ -exec sleep 5 \;
+find / -name "*.txt" -exec ls -l {} \; -exec sleep 5 \;
+bg
+echo "HOLA"
+fg
+nano &
+find / -name "*.csv" -exec ls -l {} \; -exec sleep 5 \; &
+jobs
+fg
+jobs
+jobs
+fgfg
+fg
+jobs
+fg
+jobs
+fg
+gedit
+gedit &
+echo ohhh
+find / -name "*.csv" -exec ls -l {} \; -exec sleep 5 \; &
+jobs
+fg %1
+jobs
+kill %2
+ps
+ps
+ps -U dsc
+ps -U dsc | grep gedit
+ps -U dsc | grep gedit
+jobs
+jobs
+kill 3939
+ps -U dsc | grep gedit
+pkill 3939
+ps -U dsc | grep gedit
+kill -9 3939
+ps -U dsc | grep gedit
+which pip
+which pip3
+cd Data/opentraveldata
+csvlook optd_aircraft.csv |less 
+csvlook -d "^" optd_aircraft.csv |less 
+csvlook -d "^" optd_aircraft.csv |less -S
+csvlook -d "^" optd_por_public.csv |less -S
+head optd_por_public.csv | csvlook -d "^" | less -S
+head optd_por_public.csv | csvlook -dl "^" | less -S
+head optd_por_public.csv | csvlook -ld "^" | less -S
+csvstat -d "^" optd_aircraft.csv
+csvstat -d "^" optd_aircraft.csv | less
+csvcut -d "^" -c 2 optd_aircraft.csv| head
+csvcut -d "^" -c 2-4 optd_aircraft.csv| head
+csvcut -d "^" -c manufacturer  optd_aircraft.csv| head
+csvcut -d "^" -c manufacturer,model  optd_aircraft.csv| head
+csvsql -d "^"  optd_aircraft.csv
+csvsql -d "^" -postgresql optd_aircraft.csv
+csvsql -d "^" -i postgresql optd_aircraft.csv
+csvsql -d "^" -i mysql optd_aircraft.csv
+csvsql -d "^" -i mysql optd_aircraft.csv > create_table.sql
+cat table_create.sql
+cd
+python
+ipython
+jupyter-notebook
+ps -U dsc | fire
+ps -U dsc | grep fire
+jupyter-notebook
+ll
+cd python_class
+ll
